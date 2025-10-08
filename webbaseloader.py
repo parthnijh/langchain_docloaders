@@ -1,0 +1,4 @@
+from langchain_community.document_loaders import WebBaseLoader
+loader=WebBaseLoader("https://www.flipkart.com/hp-intel-core-i3-13th-gen-1315u-8-gb-512-gb-ssd-windows-11-home-15-fd0568tu-thin-light-laptop/p/itm033c840630887?pid=COMHBFRJZKHTQSKM&lid=LSTCOMHBFRJZKHTQSKMBWCSEV&marketplace=FLIPKART&store=6bo%2Fb5g&spotlightTagId=default_TrendingId_6bo%2Fb5g&srno=b_1_3&otracker=clp_metro_expandable_1_12.metroExpandable.METRO_EXPANDABLE_HP_gaming-laptops-store_VY4IKDB3KHBP_wp3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_13_L1_view-all&fm=neo%2Fmerchandising&iid=cd24065f-0f84-465d-97df-9c86df9b0c1e.COMHBFRJZKHTQSKM.SEARCH&ppt=browse&ppn=browse&ssid=a063vrt2xs0000001759938816473")
+docs=loader.load()
+print(len(docs))

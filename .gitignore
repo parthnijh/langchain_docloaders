@@ -4,6 +4,7 @@ env/
 venv/
 .env
 data/
+pdfs/
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
